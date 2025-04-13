@@ -37,7 +37,7 @@ yolo_model = YOLO('yolov8n.pt')
 
 # Set page config
 st.set_page_config(
-    page_title="Video Red Flag Analyzer",
+    page_title="Visionsentinal AI",
     page_icon="🚨",
     layout="wide"
 )
@@ -402,7 +402,7 @@ def get_safety_tips(red_flags):
         return None
 
 def main():
-    st.title("🚨 Video Red Flag Analyzer")
+    st.title("🚨 VisionSentinal AI")
     st.write("Upload a video to analyze for potential red flags and suspicious activities.")
     
     # File uploader
