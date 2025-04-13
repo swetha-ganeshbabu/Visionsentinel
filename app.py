@@ -15,7 +15,8 @@ import http.client
 import json
 import requests
 import urllib3
-
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 # Disable SSL warning messages
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
